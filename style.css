@@ -76,6 +76,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+   
 }
 
 .container-video {
@@ -114,6 +115,9 @@ display: flex;
    font-size: 16px;
    border: none;
    transition: 1s;
+   
+
+   
 }
 
 .btn-submit:hover {
