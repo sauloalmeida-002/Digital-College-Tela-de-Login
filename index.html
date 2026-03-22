@@ -3,186 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital College</title>
-  
-  <style>
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url("assets/images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: Poppins, sans-serif;
-}
-
-/* Layout */
-.container-pai {
-
-max-width: 100%;
-width: 100%;
-height: 100%;
-display: flex;
-align-items:center;
-justify-content: center;
-flex-direction: row;
-
-
-}
-
-
-#Container-PRC {
-
-background: rgb(255, 255, 255);
-box-shadow: 0px 10px 5px 0px rgb(136, 136, 136);
-max-width: 100%;
-width: 45%;
-height: 620px;
-border-radius: 20px 0px 0px 20px;
-margin: 10px 1px;
-
-
-}
-
-
-
-.topo {
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    padding: 30px;
-}
-
-
-.formulario {
-display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    flex-wrap: nowrap;
-}
-
-.CheckboxeSenha {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-    margin: 30px 0px 40px 0px;
-    width: 100%;
-    height: auto;
-    flex-wrap: nowrap;
-}
-
-.Acessar {
-
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.container-video {
-
-    max-width: 100%;
-    width: 30%;
-    height: 620px;
-    box-shadow: 0px 10px 5px 0px rgb(136, 136, 136);
-     border-radius: 0px 20px 20px 0px;
-     background: #BF0067;
-    display: flex;
-     justify-content: flex-end;
-     align-items: flex-end;
-     align-content: flex-end;
-     
-    
-
-}
- 
-/* Componentes */
-
-.dados {
-
-    margin: 0px 0px 10px 55px;
-    max-width: 100%;
-    width: 100%;
-    height: 45px;
-    padding: 9px;
-    border: 1px solid rgb(202, 202, 202);
-    border-radius: 30px;
-}
-
-.btn-submit {
-
-   margin: 90px 0px 20px 0px;
-   width: 90%;
-   color: white;
-   background: #BF0067;
-   border-radius: 30px;
-   height: 45px;
-   max-width: 90%;
-   padding: 10px;
-   font-size: 16px;
-   border: none;
-   transition: 1s;
-}
-
-.btn-submit:hover {
-
-background: linear-gradient(#fa0a8a,#BF0067);
-cursor: pointer;
-  
-}
-
-.video {
-
-    object-fit: cover;
-    width: 100%;
-    height: 620px;
-    border-radius: 0px 20px 20px 0px;
-    opacity: 0.6;
-    
-
-}
-
-.img-logo-branca {
-
-  position: absolute;
-}
-
-/* utilitarios */
-
-.img-logo {
-    
-   
-    max-width: 100%;
-    width: 500px;
-    height: 120px;
-}
-
-.topo-text {
-
-    font-size: 18px;
-    text-align: center;
-}
-
-.text-form {
-
-    margin: 20px 0px 20px 65px;
- font-size: 16px;
-}
-
-.password {
-
-    color: #BF0067;
-}
-  </style>
+  <title>Digital College | Portal do Aluno</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="assets/images/icone-digital.ico">
 </head>
 <body>
 
@@ -210,21 +33,26 @@ cursor: pointer;
 
 
       <div class="CheckboxeSenha">
-      <label>
-        <input type="checkbox" id="checkbox">
-        Lembrar Meu Acesso!
-      </label>
-      <a href="#" class="password">Esqueceu a Senha?</a>
+      
+        <div class="checkbox-container">
+         <input type="checkbox" id="checkbox">
+
+        <label for="checkbox" class="checkbox-custom"></label>
+       
+         <span class="texto-checkbox">Lembrar Meu Acesso!</span>
+         </div>
+     
+         <a href="#" class="password">Esqueceu a Senha?</a>
        </div>  
 
-
+     
       <div class="Acessar">
       <button type="submit" class="btn-submit" onclick="alert('Suas Informações foram enviadas...Redirecionando')">Acessar</button>
       </div>
-
+      </form>
       
   </div>
-</form>
+
 
 <div class="container-video">
 
