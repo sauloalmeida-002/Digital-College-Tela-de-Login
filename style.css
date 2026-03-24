@@ -124,7 +124,7 @@ display: flex;
     width: 100%;
     height: 45px;
     padding: 9px;
-    border: 1px solid rgb(224, 222, 222);
+    border: 1px solid #BF0067;
     border-radius: 30px;
    
 }
@@ -181,6 +181,8 @@ cursor: pointer;
 #checkbox:checked + .checkbox-custom {
   background: #BF0067;
 }
+
+
 
 /* utilitarios */
 
