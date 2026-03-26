@@ -120,7 +120,7 @@ display: flex;
 
     margin: 0px 0px 10px 55px;
     max-width: 100%;
-    width: 100%;
+    width: 70%;
     height: 45px;
     padding: 9px;
     border: 1px solid rgb(202, 202, 202);
@@ -212,5 +212,207 @@ cursor: pointer;
   display: none;
 }
 
+@media (max-width: 500px) {
 
+    /* Layout */
+.container-pai {
+
+max-width: 100%;
+width: 100%;
+height: 100vh;
+display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: row;
+
+
+}
+
+
+#Container-PRC {
+
+background: rgb(255, 255, 255);
+box-shadow: 0px 10px 5px 0px rgb(136, 136, 136);
+max-width: 100%;
+width: 90%;
+height: 600px;
+border-radius: 20px 20px 20px 20px;
+margin: 10px 1px;
+
+
+}
+
+
+
+.topo {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+
+.formulario {
+display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    
+    
+}
+
+.CheckboxeSenha {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 30px 0px 40px 0px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.Acessar {
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-video {
+
+    max-width:0%;
+    width: 0%;
+    height: 620px;
+    box-shadow: 0px 10px 5px 0px rgb(136, 136, 136);
+     border-radius: 0px 20px 20px 0px;
+     background: #BF0067;
+    display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     align-content: flex-end;
+     position: relative;
+     
+    
+
+}
+
+
+ 
+/* Componentes */
+
+.checkbox-container {
+
+  display: flex;
+  height: 100%;
+ max-width: 100%;
+ width: 60%;
+ justify-content: space-evenly;
+ align-items: center;
+ 
+  
+}
+
+.dados {
+    max-width: 100%;
+    width: 70%;
+    height: 50px;
+    padding: 9px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 30px;
+   
+}
+
+.btn-submit {
+
+   margin: 10px 0px 0px 0px;
+   width: 90%;
+   color: white;
+   background: #BF0067;
+   border-radius: 30px;
+   height: 55px;
+   max-width: 90%;
+   padding: 10px;
+   font-size: 20px;
+   border: none;
+   transition: 1s;
+}
+
+.btn-submit:hover {
+
+background: linear-gradient(#fa0a8a,#BF0067);
+cursor: pointer;
+  
+}
+
+.video {
+
+    object-fit: cover;
+    width: 0%;
+    height: 0px;
+    border-radius: 0px 20px 20px 0px;
+    opacity: 0.0;
+    
+
+}
+
+.img-logo-branca {
+
+  position: absolute;
+  opacity: 0;
+}
+
+
+.checkbox-custom {
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #BF0067;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#checkbox:checked + .checkbox-custom {
+  background: #BF0067;
+}
+
+/* utilitarios */
+
+.img-logo {
+    
+   
+    max-width: 100%;
+    width: 200px;
+    height: 60px;
+}
+
+.topo-text {
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.text-form {
+
+    margin: 20px 0px 20px 65px;
+
+ font-size: 12px;
+}
+
+.password {
+
+    color: #BF0067;
+}
+
+#checkbox {
+  display: none;
+}
+
+
+}
 
